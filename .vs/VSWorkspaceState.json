@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\crud",
+    "\\crud\\BDConfig",
+    "\\crud\\Connected Services",
+    "\\crud\\services"
+  ],
+  "SelectedNode": "\\crud\\services\\emailService.cs",
+  "PreviewInSolutionExplorer": false
+}

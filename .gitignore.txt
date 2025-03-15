@@ -1,0 +1,4 @@
+crud/App.config
+crud/obj
+crud/bin
+

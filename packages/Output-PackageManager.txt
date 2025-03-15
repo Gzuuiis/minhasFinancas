@@ -1,0 +1,13 @@
+﻿
+
+Attempting to gather dependency information for package 'System.Configuration.ConfigurationManager.9.0.2' with respect to project 'crud', targeting '.NETFramework,Version=v4.8'
+Gathering dependency information took 325 ms
+Attempting to resolve dependencies for package 'System.Configuration.ConfigurationManager.9.0.2' with DependencyBehavior 'Lowest'
+Resolving dependency information took 0 ms
+Resolving actions to install package 'System.Configuration.ConfigurationManager.9.0.2'
+Resolved actions to install package 'System.Configuration.ConfigurationManager.9.0.2'
+  GET https://api.nuget.org/v3-flatcontainer/system.configuration.configurationmanager/9.0.2/system.configuration.configurationmanager.9.0.2.nupkg
+  OK https://api.nuget.org/v3-flatcontainer/system.configuration.configurationmanager/9.0.2/system.configuration.configurationmanager.9.0.2.nupkg 40ms
+Installed System.Configuration.ConfigurationManager 9.0.2 from https://api.nuget.org/v3/index.json to C:\Users\Teste\.nuget\packages\system.configuration.configurationmanager\9.0.2 with content hash pX5GhR4/mfYUbebRdINO6P4B8stIbVWaAWGgWzYO1eC30nUVpCQdzQjKwCPhtLdzjR3d/q+MQ0sRG3B1GLSyqw==.
+Adding package 'System.Configuration.ConfigurationManager.9.0.2' to folder 'C:\Users\Teste\source\repos\crud\packages'
+Added package 'System.Configuration.ConfigurationManager.9.0.2' to folder 'C:\Users\Teste\source\repos\crud\packages'
