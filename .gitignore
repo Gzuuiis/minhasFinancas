@@ -15,3 +15,8 @@ App.config
 # Ignorar arquivos temporários criados pelo sistema operacional
 Thumbs.db
 Desktop.ini
+
+# Ignorar pastas e arquivos específicos
+crud/App.config
+crud/obj
+crud/bin
