@@ -70,17 +70,25 @@ namespace crud
             //        { "str_email", new object[] { "=", "robertcostafernandespinto33@hotmail.com" } }
             //    };
 
+            string nomePlanilha = "teste";
+
             Dictionary<string, object[]> str_parametros = new Dictionary<string, object[]> {
-                { "int_id_usuario_fk", new object[] { "=", "7" } }, 
-                {"int_id_mes_ano_referencia_fk", new object[] { "=", "2"} }
+                { "int_id_usuario_fk", new object[] { "=", "1" } }, 
+                {"int_id_mes_ano_referencia_fk", new object[] { "=", "1"} }
             };
 
             despesaController despesaController = new despesaController();
             List<Dictionary<string, object>> despesas = despesaController.retornarDespesa(str_parametros);
 
+
+            receitaController receitaController = new receitaController();
+            List<Dictionary<string, object>> receitas = receitaController.retornarReceita(str_parametros);
+
             sheetsController sheets = new sheetsController();
 
-            sheets.gerarPlanilhaMensal(despesas);
+            sheets.criarPlanilha(nomePlanilha, despesas, receitas);
+
+            //sheets.gerarPlanilhaMensal(despesas);
 
             // Retorna os registros encontrados (Como dicionário)
             //foreach (var despesa in despesas)

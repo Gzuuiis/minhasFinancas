@@ -83,7 +83,9 @@ namespace crud.models
             SqlParameter[] binds = bindsList.ToArray();
 
             // Executa a query e retorna os resultados
-            return conexao.execQuery(query, binds);
+            List<Dictionary<string, object>> resultado = conexao.execQuery(query, binds);
+
+            return resultado;
           }
 
 

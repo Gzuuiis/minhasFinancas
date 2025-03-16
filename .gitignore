@@ -1,0 +1,17 @@
+# Ignorar arquivos e pastas temporários do Visual Studio
+.vs/
+.vscode/
+
+# Ignorar diretórios e arquivos de compilação do .NET
+bin/
+obj/
+
+# Ignorar arquivos de configuração de ambiente (caso aplicável)
+App.config
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos temporários criados pelo sistema operacional
+Thumbs.db
+Desktop.ini

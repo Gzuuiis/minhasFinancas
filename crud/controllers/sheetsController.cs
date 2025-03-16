@@ -13,6 +13,12 @@ namespace crud.controllers
            
         }
 
+        public void criarPlanilha(string nomePlanilha, List<Dictionary<string, object>> despesas, List<Dictionary<string, object>> receitas)
+        {
+            sheetsService sheets = new sheetsService();
+            sheets.gerarPlanilha(nomePlanilha, despesas, receitas);
+        }
+
         public void gerarExcel()
         {
             Console.WriteLine("\n Iniciando Chamada de Geração do Sheets - Controller \n");
@@ -21,13 +27,13 @@ namespace crud.controllers
             Console.WriteLine("\n Terminada a Chamada de Geração do Sheets - Controller \n");
         }
 
-        public void gerarPlanilhaMensal(List<Dictionary<string, object>> despesas)
+        /* public void gerarPlanilhaMensal(List<Dictionary<string, object>> despesas)
         {
             sheetsService sheets = new sheetsService();
-            sheets.gerarPlanilhaMensal(despesas);
+            sheets.gerarCaixaDespesas(despesas);
 
             Console.WriteLine("\n Planilha Gerada com Sucesso");
-        }
+        }*/
 
 
 
